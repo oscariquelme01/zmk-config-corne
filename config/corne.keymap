@@ -80,9 +80,9 @@
 // |  TAB |     |     |     |     |     |   |     |     |     |     |     |  GUI |
 //                    |     |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &rgb_ug RGB_TOG                    &trans   &trans     &trans   &trans      &trans   &trans   &trans   &trans &trans &trans &BSPC
-   &rgb_ug RGB_COLOR_HSB(36,100,100)  &trans   &trans     &trans   &trans      &trans   &trans   &trans   &trans &trans &trans &LSHFT
-   &rgb_ug RGB_HUI                    &trans   &trans     &trans   &trans      &trans   &trans   &trans   &trans &trans &trans &LGUI
+   &rgb_ug RGB_TOG                    &trans   &trans     &trans   &trans      &trans   &trans   &trans   &trans &trans &trans &kp BSPC
+   &rgb_ug RGB_COLOR_HSB(36,100,100)  &trans   &trans     &trans   &trans      &trans   &trans   &trans   &trans &trans &trans &kp LSHFT
+   &rgb_ug RGB_HUI                    &trans   &trans     &trans   &trans      &trans   &trans   &trans   &trans &trans &trans &kp LGUI
                                     	       &kp LGUI   &trans   &kp SPACE   &kp RET  &trans   &kp RALT
                         >;
                 };
